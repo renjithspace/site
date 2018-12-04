@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "parcel serve src/index.pug",
-    "build": "parcel build src/index.pug",
+    "build": "rm -rf dist && parcel build src/index.pug",
     "deploy": "firebase deploy"
   },
   "keywords": [],
